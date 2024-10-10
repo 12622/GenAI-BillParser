@@ -73,7 +73,7 @@ def process_single_file(file_path):
         }
 
 def generate(folder_path, output_file):
-    vertexai.init(project="verto-personal", location="us-central1")
+    vertexai.init(project="my-project-personal", location="us-central1")
     
     # Prepare CSV file for output
     with open(output_file, "w", newline='') as csvfile:
